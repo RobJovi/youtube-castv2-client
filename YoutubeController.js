@@ -1,7 +1,7 @@
 var util = require('util');
 var castv2Cli = require('castv2-client');
 var RequestResponseController = castv2Cli.RequestResponseController;
-var Q = require('Q');
+var Q = require('q');
 var _ = require('lodash');
 var needle = require('needle');
 
